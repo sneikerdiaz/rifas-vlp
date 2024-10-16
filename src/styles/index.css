@@ -5,9 +5,22 @@
 @tailwind utilities;
 
 @layer base {
+
+  html{
+    scroll-behavior: smooth;    
+  }
+
   body {
     font-family: "Inter", sans-serif;
   }
+
+  @font-face {
+    font-family: 'Dynamo';
+    font-display: swap;
+    font-weight: 1000;
+    src: url(fonts/Dynamo.woff2) format('woff2');
+  }
+
 }
 
 @layer components {

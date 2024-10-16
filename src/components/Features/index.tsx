@@ -5,11 +5,12 @@ import featuresData from "./featuresData";
 const Features = () => {
   return (
     <>
-      <section id="features" className="py-16 md:py-20 lg:py-28">
+      <section id="acerca" className="py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="Main Features"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            title="DE QUE TRATA?"
+            paragraph="Nuestra rifa en cuotas consiste en los siguientes pasos:
+          "
             center
           />
 
@@ -18,6 +19,18 @@ const Features = () => {
               <SingleFeature key={feature.id} feature={feature} />
             ))}
           </div>
+
+        <h4 className="py-4 center">
+          
+        </h4>
+
+          <SectionTitle
+            title="LA SUERTE ESTA EN INTENTARLO!"
+            paragraph=""
+            center
+            titleColor="text-red-600"
+          />
+
         </div>
       </section>
     </>

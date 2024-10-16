@@ -6,6 +6,8 @@ module.exports = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   darkMode: "class",
   theme: {
@@ -56,6 +58,7 @@ module.exports = {
           dark: "#1E232E",
           light: "#F0F2F9",
         },
+        bannerc: "#0572f3",
       },
 
       boxShadow: {

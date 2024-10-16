@@ -5,40 +5,49 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Primer abono de 10$",
+    designation: "",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-01.png",
-    star: 5,
+      "Sabado: 30/11/2024",
+    image: "/images/about/cafetera.png",
+    star: 0,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Segundo abono de 10$",
+    designation: "",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-02.png",
-    star: 5,
+      "Sabado: 30/12/2024",
+    image: "/images/about/licuadora.png",
+    star: 0,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Tercer abono de 10$",
+    designation: "",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-03.png",
-    star: 5,
+      "Sabado: 31/01/2025",
+    image: "/images/about/airfryer2.png",
+    star: 0,
+  },
+  {
+    id: 4,
+    name: "Cuarto abono de 10$",
+    designation: "",
+    content:
+      "Sabado: 28/02/2025",
+    image: "/images/about/pantallaplana2.png",
+    star: 0,
   },
 ];
 
 const Testimonials = () => {
   return (
-    <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
+    <section id="premios" className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Con el pago puntual de tus cuotas calificas para jugosos premios!"
+          paragraph="Ademas de los tres premios principales se rifaran otros articulos en el transcurso del pago de las cuotas. Pueden ser hasta 13 afortunados ganadores!"
           center
         />
 
@@ -47,6 +56,18 @@ const Testimonials = () => {
             <SingleTestimonial key={testimonial.id} testimonial={testimonial} />
           ))}
         </div>
+
+        <div className="py-8">
+      
+      </div>
+  
+        <SectionTitle
+            title="Y al pagar la quinta cuota de 10$ te espera..."
+            paragraph=""
+            center
+            titleColor="text-red-600"
+          />
+  
       </div>
       <div className="absolute right-0 top-5 z-[-1]">
         <svg
@@ -176,6 +197,7 @@ const Testimonials = () => {
           </defs>
         </svg>
       </div>
+
     </section>
   );
 };

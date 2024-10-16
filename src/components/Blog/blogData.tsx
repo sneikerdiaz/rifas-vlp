@@ -3,10 +3,10 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "Best UI components for modern websites",
+    title: "Primer abono 10$",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-01.jpg",
+      "Sabado 30/11/24 4:45 PM",
+    image: "/images/about/cafetera.png",
     author: {
       name: "Samuyl Joshi",
       image: "/images/blog/author-01.png",
