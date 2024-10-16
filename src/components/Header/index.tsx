@@ -57,7 +57,7 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="/images/logo/logokino.png"
+                  src="/rifas-vlp/images/logo/logokino.png"
                   alt="logo"
                   width={150}
                   height={40}

@@ -18,7 +18,7 @@ const AboutSectionTwo = () => {
               data-wow-delay=".15s"
             >
               <Image
-                src="/images/about/Carton.jpeg"
+                src="/rifas-vlp/images/about/Carton.jpeg"
                 alt="image"
                 fill
               />

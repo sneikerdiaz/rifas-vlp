@@ -72,14 +72,14 @@ const AboutSectionOne = () => {
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
                     <Image
-                      src="/images/about/premio1.png"
+                      src="/rifas-vlp/images/about/premio1.png"
                       alt="about-image"
                       width={500}
                       height={500}
                       className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
                     />
                     <Image
-                      src="/images/about/premio1.png"
+                      src="/rifas-vlp/images/about/premio1.png"
                       alt="about-image"
                       width={500}
                       height={500}
@@ -98,14 +98,14 @@ const AboutSectionOne = () => {
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
                     <Image
-                      src="/images/about/premio2.png"
+                      src="/rifas-vlp/images/about/premio2.png"
                       alt="about-image"
                       width={500}
                       height={500}
                       className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
                     />
                     <Image
-                      src="/images/about/premio2.png"
+                      src="/rifas-vlp/images/about/premio2.png"
                       alt="about-image"
                       width={500}
                       height={500}
@@ -123,14 +123,14 @@ const AboutSectionOne = () => {
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
                     <Image
-                      src="/images/about/premio3.png"
+                      src="/rifas-vlp/images/about/premio3.png"
                       alt="about-image"
                       width={500}
                       height={500}
                       className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
                     />
                     <Image
-                      src="/images/about/premio3.png"
+                      src="/rifas-vlp/images/about/premio3.png"
                       alt="about-image"
                       width={500}
                       height={500}
@@ -146,13 +146,13 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
                 <Image
-                  src="/images/about/regalos.png"
+                  src="/rifas-vlp/images/about/regalos.png"
                   alt="about-image"
                   fill
                   className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
                 />
                 <Image
-                  src="/images/about/regalos.png"
+                  src="/rifas-vlp/images/about/regalos.png"
                   alt="about-image"
                   fill
                   className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"

@@ -9,7 +9,7 @@ const testimonialData: Testimonial[] = [
     designation: "",
     content:
       "Sabado: 30/11/2024",
-    image: "/images/about/cafetera.png",
+    image: "/rifas-vlp/images/about/cafetera.png",
     star: 0,
   },
   {
@@ -18,7 +18,7 @@ const testimonialData: Testimonial[] = [
     designation: "",
     content:
       "Sabado: 30/12/2024",
-    image: "/images/about/licuadora.png",
+    image: "/rifas-vlp/images/about/licuadora.png",
     star: 0,
   },
   {
@@ -27,7 +27,7 @@ const testimonialData: Testimonial[] = [
     designation: "",
     content:
       "Sabado: 31/01/2025",
-    image: "/images/about/airfryer2.png",
+    image: "/rifas-vlp/images/about/airfryer2.png",
     star: 0,
   },
   {
@@ -36,7 +36,7 @@ const testimonialData: Testimonial[] = [
     designation: "",
     content:
       "Sabado: 28/02/2025",
-    image: "/images/about/pantallaplana2.png",
+    image: "/rifas-vlp/images/about/pantallaplana2.png",
     star: 0,
   },
 ];
